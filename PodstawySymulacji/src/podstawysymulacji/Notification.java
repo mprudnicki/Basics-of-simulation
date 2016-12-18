@@ -13,14 +13,14 @@ public class Notification{
     private static int number = 0;
     private int priority;
     private int executionNumber;
-    private int impetience;
+    private int impatience;
     
     public Notification(){
         number++;
         notificationNumber = number;
         priority = r.nextInt(10);
         executionNumber = r.nextInt(10);
-        impetience = r.nextInt(10);
+        impatience = r.nextInt(10);
     }
     
     public Notification(int a, int b){
